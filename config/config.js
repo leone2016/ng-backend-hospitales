@@ -1,0 +1,1 @@
+module.exports.SEED = 'A11-W3-N33d-1$-!0L3';

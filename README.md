@@ -14,11 +14,35 @@
 
 
 ## Configuracion de mongodb
-* instalar mongo db
+* instalar mongo db (mongod.exe en consola )
 * instalar robo 3t  (similar a mongo compass)
 * npm install mongoose --save ****  - http://mongoosejs.com/docs/index.html (para conectarse a mongo db)
-*
+* crea conexion a la base de datos en app.js
 
+## validar email con mongoose (mas info de estos plung-in en la paguina de mongoose)
+
+(consola) $ npm install mongoose-unique-validator --save
+(models) importar en usuario.js
+
+## Encriptar contrase?a de una sola via
+
+https://github.com/dcodeIO/bcrypt.js
+npm install bcryptjs --save
+
+## crear un token (jsonwebToken);
+* https://github.com/auth0/node-jsonwebtoken
+* Install $ npm install jsonwebtoken --save
+* https://jwt.io/ (visitar esta pagina, muestra como utilizar el token);
+
+## Levantar Express
+* primero levantar mongodb
+** ingresar a C:\MongoDB\Server\3.4\bin
+** en cmd digitar $ mongod.exe
+* en el IED de desarrollo o consola digitar $ npm start
+
+npm install body-parser --save
+
+* ====================================================================================================================
 Colores para la consola
 Reset = "\x1b[0m"
 
